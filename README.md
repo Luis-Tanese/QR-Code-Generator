@@ -8,6 +8,9 @@ A simple, fast, and lightweight QR Code Generator built with HTML, CSS, and Java
 - Save your QR codes as `.png` files.
 - Uses the popular [qrcode.js](https://github.com/davidshimjs/qrcodejs) library.
 
+## Live preview
+Check out the live version [here.](https://silly-qr-generator.vercel.app)
+
 ## Contributing
 Contributions are welcome! If you find a bug or have a feature request, feel free to open an issue or submit a pull request.
 - Fork the repository.
