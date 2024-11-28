@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>QR Code Generator</title>
+</head>
+<body>
+    <h1>Simple and Fast QR Code Generator</h1>
+    <div class="container">
+        <input type="text" id="text-input" placeholder="Enter text here">
+        <div id="qrcode-container">
+            <canvas id="qrcode-canvas" style="display: none;"></canvas>
+            <div id="qrcode"></div>
+        </div>
+        <button id="download-btn" style="display: none;" onclick="downloadQRCode()">Download QR Code</button>
+        <a href="https://github.com/Luis-Tanese/QR-Code-Generator">Made by Tanese</a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
